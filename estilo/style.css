@@ -1,0 +1,264 @@
+@charset "utf-8"; /* Define a codificação de caracteres do arquivo como UTF-8 */
+
+/* Resetando as configurações padrão dos navegadores */
+* {
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove espaçamentos internos */
+    box-sizing: border-box; /* Faz com que padding e border não aumentem o tamanho dos elementos */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto */
+    font-size: 1em; /* Define o tamanho padrão do texto (1em = 16px padrão) */
+    background-color: #6A0DAD; /* Define a cor de fundo da página */
+    min-height: 100vh; /* Garante que o corpo da página tenha no mínimo a altura total da tela */
+    overflow-x: hidden; /* Impede rolagem horizontal, evitando barras de rolagem indesejadas */
+}
+
+header {
+    background-color: rgb(30, 5, 43); /* Define a cor de fundo do cabeçalho */
+    color: wheat; /* Define a cor do texto no cabeçalho */
+    padding: 10px; /* Adiciona espaçamento interno ao cabeçalho */
+    border-radius: 0px 0px 30px 30px; /* Arredonda os cantos inferiores do cabeçalho */
+    display: flex; /* Usa Flexbox para organizar os elementos dentro do cabeçalho */
+    flex-flow: row wrap; /* Permite que os elementos dentro do cabeçalho quebrem linha se necessário */
+    justify-content: space-between; /* Distribui os elementos com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+header > h1 {
+    flex: 0 0 350px; /* Define um tamanho fixo de 350px para o título dentro do cabeçalho */
+}
+
+nav {
+    display: flex; /* Usa Flexbox para organizar os links do menu */
+    justify-content: flex-end; /* Alinha os links à direita do menu */
+    gap: 10px; /* Define um espaço de 10px entre os links do menu */
+}
+
+nav > a {
+    color: wheat; /* Define a cor do texto dos links */
+    padding: 10px 15px; /* Adiciona espaçamento interno aos links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    display: inline-block; /* Faz com que os links aceitem padding e largura sem ocupar a linha toda */
+}
+
+nav > a:hover {
+    color: yellow; /* Altera a cor do texto quando o mouse passa sobre os links */
+}
+main {
+    width: 98%; /* Definir uma largura menor para permitir margem automática funcionar */
+    max-width: 1900px; /* Define um limite máximo para evitar que o conteúdo fique muito largo em telas grandes */
+    padding: 10px;  
+    margin: auto; /* Agora centraliza corretamente */
+}
+.container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 50px;
+    
+}
+.item{
+    width: 750px;
+    height: 420px;  
+}
+.item > h2{
+    text-align: center;
+    color: wheat;
+    padding: 15px;
+    margin-top: 20px;
+}
+.item > p{
+    color: wheat;
+    font-size: 1.2em;
+    text-align: justify;
+    padding:15px;
+}
+.botao > a{
+    color: wheat;
+    text-decoration: none;
+    text-align:center;
+    background-color:rgb(176, 75, 226) ;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+.botao > a:hover{
+    background-color:rgb(30, 5, 43) ;
+}
+.container-primeira{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height:600px;
+    margin-top: 20px;
+
+}
+.primeira{
+    width: 400px;
+    height: 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.primeira > h2{
+    color: wheat;
+    text-align: center;
+    padding: 5px;
+}
+.primeira > p{
+    color: wheat;
+    text-align: justify;
+    padding: 10px;
+}
+.container-a{
+    background-color: #6A0DAD;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:  space-between;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px; 
+    height: 630px; 
+}
+.item-1{
+    width:910px;
+    height: 300px;
+    margin-top: px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.item-1 > h2{
+    text-align: center;
+    color: wheat;
+    padding: 10px;
+    
+    
+}
+.item-1 > p{
+    color: wheat;
+    font-size: 1.2em;
+}
+.item-2{
+    background: url(../imagem/tablet\ 1024.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:910px; 
+    height: 300px;
+    border-radius: 10px;
+    
+     
+}
+.titulo{
+    color: wheat;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container-b{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;   
+}
+.servico{
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 150px;
+    margin: 20px;
+    background-color:#F5DEB3 ;
+    margin-top: 30px;
+}
+.servico > h2{
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+
+}
+.servico > p{
+    text-align: justify;
+    padding: 20px;
+}
+.container-ultima{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 650px;
+}
+.ultma-1 {
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.ultma-1 > h2{
+    text-align: center;
+    color: wheat;
+}
+.ultma-1 > p{
+    text-align: justify;
+    color: wheat;
+    padding: 10px;
+}
+.ultma-2{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.ultma-2 > h2 {
+    color: wheat;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1em;
+    padding: 15px;
+    margin-top: 20px;
+}
+.ultma-3{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+ a{
+    color: wheat;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: yellow;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+li{
+    margin-bottom: 10px;
+}
+footer{
+    background-color:rgb(30, 5, 43) ;
+    padding: 20px;
+}
+footer > p{
+    color: wheat;
+    font-size: 0.8em;
+    text-align: center;
+}
+/*@media (max-width: 768px) { 
+    .container {
+        flex-direction: column;
+    }
+} */
