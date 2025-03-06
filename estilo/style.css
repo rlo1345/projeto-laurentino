@@ -60,12 +60,11 @@ main {
     align-items: center;
     border-radius: 10px;
     border: 2px solid black;
-    margin-top: 50px;
-    
+    margin-top: 50px; 
 }
 .item{
     width: 750px;
-    height: 400px;  
+    height: 320px;  
 }
 .item > h2{
     text-align: center;
@@ -115,7 +114,7 @@ main {
 }
 .primeira > p{
     color: wheat;
-    text-align: justify;
+    text-align: left;
     padding: 10px;
 }
 .container-a{
@@ -169,7 +168,7 @@ main {
 .container-b{
     display: flex;
     flex-flow: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;   
 }
 .servico{
@@ -187,7 +186,7 @@ main {
 
 }
 .servico > p{
-    text-align: justify;
+    text-align: left;
     padding: 10px;
 }
 .container-ultima{
@@ -213,7 +212,7 @@ main {
     color: wheat;
 }
 .ultma-1 > p{
-    text-align: justify;
+    text-align: left;
     color: wheat;
     padding: 10px;
 }
