@@ -45,6 +45,7 @@ nav > a {
 
 nav > a:hover {
     color: yellow; /* Altera a cor do texto quando o mouse passa sobre os links */
+    transition: 0.4s;
 }
 main {
     width: 98%; /* Definir uma largura menor para permitir margem automática funcionar */
@@ -96,7 +97,7 @@ main {
     flex-flow: wrap;
     justify-content: space-around;
     align-items: center;
-    min-height:660px;
+    min-height:px;
     margin-top: 20px;
 
 }
@@ -105,6 +106,7 @@ main {
     height: 150px;
     border: 2px solid black;
     border-radius: 10px;
+    margin: 10px 0px 0px 0px ;
 }
 .primeira > h2{
     color: wheat;
@@ -124,12 +126,12 @@ main {
     align-items: center;
     margin-top: 50px;
     border-radius: 10px; 
-    height: 770px; 
+    
 }
 .item-1{
     width:910px;
     height: 380px;
-    margin-top: px;
+    margin-top:20px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
@@ -153,13 +155,14 @@ main {
     width:910px; 
     height: 380px;
     border-radius: 10px;
+    margin: 10px 0px 0px 0px ;
     
      
 }
 .titulo{
     color: wheat;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 10px;
     padding: 10px;
 }
@@ -192,14 +195,17 @@ main {
     flex-flow: wrap;
     justify-content: space-evenly;
     align-items: center; 
-    height: 800px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    
 }
 .ultma-1 {
     width: 500px;
-    height: 260px;
+    height: 250px;
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
+    margin: 10px 0px 0px 0px ;
 
 }
 .ultma-1 > h2{
@@ -213,9 +219,10 @@ main {
 }
 .ultma-2{
     width: 500px;
-    height: 260px;
+    height: 250px;
     border: 2px solid black;
     border-radius: 10px;
+    margin: 10px 0px 0px 0px ;
 
 }
 .ultma-2 > h2 {
@@ -228,10 +235,11 @@ main {
 }
 .ultma-3{
     width: 500px;
-    height: 260px;
+    height: 250px;
     border: 2px solid black;
     border-radius: 10px;
     padding: 20px;
+    margin: 10px 0px 0px 0px ;
    
 }
  a{
