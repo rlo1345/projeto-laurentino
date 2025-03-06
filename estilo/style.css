@@ -64,7 +64,7 @@ main {
 }
 .item{
     width: 750px;
-    height: 410px;  
+    height: 350px;  
 }
 .item > h2{
     text-align: center;
