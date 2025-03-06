@@ -64,19 +64,19 @@ main {
 }
 .item{
     width: 750px;
-    height: 440px;  
+    height: 410px;  
 }
 .item > h2{
     text-align: center;
     color: wheat;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 10px;
 }
 .item > p{
     color: wheat;
     font-size: 1.2em;
     text-align: justify;
-    padding:15px;
+    padding:10px;
 }
 .botao > a{
     color: wheat;
@@ -96,13 +96,13 @@ main {
     flex-flow: wrap;
     justify-content: space-around;
     align-items: center;
-    min-height:600px;
+    min-height:660px;
     margin-top: 20px;
 
 }
 .primeira{
     width: 400px;
-    height: 130px;
+    height: 150px;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -124,11 +124,11 @@ main {
     align-items: center;
     margin-top: 50px;
     border-radius: 10px; 
-    height: 630px; 
+    height: 770px; 
 }
 .item-1{
     width:910px;
-    height: 320px;
+    height: 380px;
     margin-top: px;
     padding: 10px;
     border: 2px solid black;
@@ -138,7 +138,7 @@ main {
 .item-1 > h2{
     text-align: center;
     color: wheat;
-    padding: 10px;
+    padding: 5px;
     
     
 }
@@ -151,7 +151,7 @@ main {
     background-size: cover;
     background-position: center center;
     width:910px; 
-    height: 320px;
+    height: 380px;
     border-radius: 10px;
     
      
@@ -174,7 +174,6 @@ main {
     border: 2px solid black;
     border-radius: 10px;
     height: 150px;
-    margin: 20px;
     background-color:#F5DEB3 ;
     margin-top: 30px;
 }
@@ -186,20 +185,21 @@ main {
 }
 .servico > p{
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
 }
 .container-ultima{
     display: flex;
     flex-flow: wrap;
     justify-content: space-evenly;
     align-items: center; 
-    height: 650px;
+    height: 800px;
 }
 .ultma-1 {
     width: 500px;
-    height: 200px;
+    height: 260px;
     border: 2px solid black;
     border-radius: 10px;
+    padding: 5px;
 
 }
 .ultma-1 > h2{
@@ -213,7 +213,7 @@ main {
 }
 .ultma-2{
     width: 500px;
-    height: 200px;
+    height: 260px;
     border: 2px solid black;
     border-radius: 10px;
 
@@ -228,9 +228,11 @@ main {
 }
 .ultma-3{
     width: 500px;
-    height: 200px;
+    height: 260px;
     border: 2px solid black;
     border-radius: 10px;
+    padding: 20px;
+   
 }
  a{
     color: wheat;
@@ -257,8 +259,4 @@ footer > p{
     font-size: 0.8em;
     text-align: center;
 }
-/*@media (max-width: 768px) { 
-    .container {
-        flex-direction: column;
-    }
-} */
+@media (max-width: 768px) 
