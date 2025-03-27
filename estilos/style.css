@@ -378,7 +378,6 @@ main {
     max-width: 600px;
 }
 .formu {
-   /* border: 2px solid black; */
     padding: 10px;
 }
 
@@ -465,9 +464,9 @@ main {
 }
 .final-3{
     display: flex;
-    width: 550px; /* Largura dos itens */
-    height: 250px; /* Altura dos itens */
-    margin: 10px 0px 0px 0px; /* Margem superior */
+    width: 550px; 
+    height: 250px; 
+    margin: 10px 0px 0px 0px; 
 }
 
 
